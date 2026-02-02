@@ -6,23 +6,58 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		8EF0FFA82F2E2EEE00A645A2 /* PLANNER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLANNER.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		8E35860D2F30D0B40041AA12 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E35860C2F30D0B40041AA12 /* AuthManager.swift */; };
+		8EE1B6AD2F30B80F0080F59E /* AppBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1B6AC2F30B80F0080F59E /* AppBackground.swift */; };
+		8EE1B6AF2F30BD550080F59E /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1B6AE2F30BD550080F59E /* AnalysisView.swift */; };
+		8EE1B6B32F30C1260080F59E /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1B6B22F30C1260080F59E /* ThemeManager.swift */; };
+		8EE1B6B52F30C6440080F59E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1B6B42F30C6440080F59E /* NotificationManager.swift */; };
+		8EF0FFAC2F2E2EEE00A645A2 /* PLANNERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFAB2F2E2EEE00A645A2 /* PLANNERApp.swift */; };
+		8EF0FFAE2F2E2EEE00A645A2 /* ContentView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFAD2F2E2EEE00A645A2 /* ContentView .swift */; };
+		8EF0FFB22F2E2EEF00A645A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0FFB12F2E2EEF00A645A2 /* Assets.xcassets */; };
+		8EF0FFBE2F2E356700A645A2 /* PlannerTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFBD2F2E356700A645A2 /* PlannerTask.swift */; };
+		8EF0FFC02F2E378600A645A2 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFBF2F2E378600A645A2 /* AddTaskView.swift */; };
+		8EF0FFC22F2E384800A645A2 /* MyPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFC12F2E384800A645A2 /* MyPlannerView.swift */; };
+		8EF0FFC42F2E391400A645A2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFC32F2E391400A645A2 /* WelcomeView.swift */; };
+		8EF0FFC62F2E3AEA00A645A2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFC52F2E3AEA00A645A2 /* SignUpView.swift */; };
+		8EF0FFC82F2E3B1600A645A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFC72F2E3B1600A645A2 /* LoginView.swift */; };
+		8EF0FFCD2F2E3E5D00A645A2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8EF0FFCC2F2E3E5D00A645A2 /* FirebaseAnalytics */; };
+		8EF0FFCF2F2E3E5D00A645A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8EF0FFCE2F2E3E5D00A645A2 /* FirebaseAuth */; };
+		8EF0FFD12F2E3E5D00A645A2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8EF0FFD02F2E3E5D00A645A2 /* FirebaseFirestore */; };
+		8EF0FFD32F2E422C00A645A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0FFD22F2E422C00A645A2 /* GoogleService-Info.plist */; };
+		8EF0FFD52F2E44B300A645A2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFD42F2E44B300A645A2 /* ProfileView.swift */; };
+		8EF0FFD72F2E465F00A645A2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0FFD62F2E465F00A645A2 /* RootView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8EF0FFAA2F2E2EEE00A645A2 /* PLANNER */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PLANNER;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		8E35860C2F30D0B40041AA12 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8EE1B6AC2F30B80F0080F59E /* AppBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackground.swift; sourceTree = "<group>"; };
+		8EE1B6AE2F30BD550080F59E /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		8EE1B6B22F30C1260080F59E /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		8EE1B6B42F30C6440080F59E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		8EF0FFA82F2E2EEE00A645A2 /* PLANNER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLANNER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF0FFAB2F2E2EEE00A645A2 /* PLANNERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLANNERApp.swift; sourceTree = "<group>"; };
+		8EF0FFAD2F2E2EEE00A645A2 /* ContentView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView .swift"; sourceTree = "<group>"; };
+		8EF0FFB12F2E2EEF00A645A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EF0FFBD2F2E356700A645A2 /* PlannerTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerTask.swift; sourceTree = "<group>"; };
+		8EF0FFBF2F2E378600A645A2 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		8EF0FFC12F2E384800A645A2 /* MyPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlannerView.swift; sourceTree = "<group>"; };
+		8EF0FFC32F2E391400A645A2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8EF0FFC52F2E3AEA00A645A2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8EF0FFC72F2E3B1600A645A2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8EF0FFD22F2E422C00A645A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8EF0FFD42F2E44B300A645A2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8EF0FFD62F2E465F00A645A2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8EF0FFA52F2E2EEE00A645A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF0FFCD2F2E3E5D00A645A2 /* FirebaseAnalytics in Frameworks */,
+				8EF0FFCF2F2E3E5D00A645A2 /* FirebaseAuth in Frameworks */,
+				8EF0FFD12F2E3E5D00A645A2 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +67,11 @@
 		8EF0FF9F2F2E2EEE00A645A2 = {
 			isa = PBXGroup;
 			children = (
-				8EF0FFAA2F2E2EEE00A645A2 /* PLANNER */,
+				8EF0FFD22F2E422C00A645A2 /* GoogleService-Info.plist */,
+				8EF0FFAD2F2E2EEE00A645A2 /* ContentView .swift */,
+				8EF0FFAB2F2E2EEE00A645A2 /* PLANNERApp.swift */,
+				8EF0FFB12F2E2EEF00A645A2 /* Assets.xcassets */,
+				8EF0FFBC2F2E305000A645A2 /* ViewModels */,
 				8EF0FFA92F2E2EEE00A645A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +82,34 @@
 				8EF0FFA82F2E2EEE00A645A2 /* PLANNER.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF0FFBB2F2E302400A645A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0FFBD2F2E356700A645A2 /* PlannerTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EF0FFBC2F2E305000A645A2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8EE1B6AE2F30BD550080F59E /* AnalysisView.swift */,
+				8EE1B6AC2F30B80F0080F59E /* AppBackground.swift */,
+				8EF0FFC72F2E3B1600A645A2 /* LoginView.swift */,
+				8EE1B6B42F30C6440080F59E /* NotificationManager.swift */,
+				8EF0FFC52F2E3AEA00A645A2 /* SignUpView.swift */,
+				8EF0FFD62F2E465F00A645A2 /* RootView.swift */,
+				8EF0FFD42F2E44B300A645A2 /* ProfileView.swift */,
+				8EF0FFC32F2E391400A645A2 /* WelcomeView.swift */,
+				8EE1B6B22F30C1260080F59E /* ThemeManager.swift */,
+				8EF0FFC12F2E384800A645A2 /* MyPlannerView.swift */,
+				8EF0FFBF2F2E378600A645A2 /* AddTaskView.swift */,
+				8EF0FFBB2F2E302400A645A2 /* Models */,
+				8E35860C2F30D0B40041AA12 /* AuthManager.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +127,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				8EF0FFAA2F2E2EEE00A645A2 /* PLANNER */,
-			);
 			name = PLANNER;
 			packageProductDependencies = (
+				8EF0FFCC2F2E3E5D00A645A2 /* FirebaseAnalytics */,
+				8EF0FFCE2F2E3E5D00A645A2 /* FirebaseAuth */,
+				8EF0FFD02F2E3E5D00A645A2 /* FirebaseFirestore */,
 			);
 			productName = PLANNER;
 			productReference = 8EF0FFA82F2E2EEE00A645A2 /* PLANNER.app */;
@@ -94,6 +161,9 @@
 			);
 			mainGroup = 8EF0FF9F2F2E2EEE00A645A2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8EF0FFCB2F2E3E5D00A645A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8EF0FFA92F2E2EEE00A645A2 /* Products */;
 			projectDirPath = "";
@@ -109,6 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF0FFB22F2E2EEF00A645A2 /* Assets.xcassets in Resources */,
+				8EF0FFD32F2E422C00A645A2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +191,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF0FFAE2F2E2EEE00A645A2 /* ContentView .swift in Sources */,
+				8EF0FFD52F2E44B300A645A2 /* ProfileView.swift in Sources */,
+				8EF0FFC42F2E391400A645A2 /* WelcomeView.swift in Sources */,
+				8EF0FFC22F2E384800A645A2 /* MyPlannerView.swift in Sources */,
+				8E35860D2F30D0B40041AA12 /* AuthManager.swift in Sources */,
+				8EE1B6B52F30C6440080F59E /* NotificationManager.swift in Sources */,
+				8EE1B6AF2F30BD550080F59E /* AnalysisView.swift in Sources */,
+				8EF0FFD72F2E465F00A645A2 /* RootView.swift in Sources */,
+				8EE1B6B32F30C1260080F59E /* ThemeManager.swift in Sources */,
+				8EF0FFC62F2E3AEA00A645A2 /* SignUpView.swift in Sources */,
+				8EF0FFAC2F2E2EEE00A645A2 /* PLANNERApp.swift in Sources */,
+				8EF0FFBE2F2E356700A645A2 /* PlannerTask.swift in Sources */,
+				8EE1B6AD2F30B80F0080F59E /* AppBackground.swift in Sources */,
+				8EF0FFC82F2E3B1600A645A2 /* LoginView.swift in Sources */,
+				8EF0FFC02F2E378600A645A2 /* AddTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +419,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8EF0FFCB2F2E3E5D00A645A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8EF0FFCC2F2E3E5D00A645A2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EF0FFCB2F2E3E5D00A645A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8EF0FFCE2F2E3E5D00A645A2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EF0FFCB2F2E3E5D00A645A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8EF0FFD02F2E3E5D00A645A2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EF0FFCB2F2E3E5D00A645A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8EF0FFA02F2E2EEE00A645A2 /* Project object */;
 }
