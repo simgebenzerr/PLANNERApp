@@ -1,6 +1,16 @@
 PLANNERApp - iOS Görev Yönetimi Sistemi
 PLANNERApp, modern mobil uygulama geliştirme standartları kullanılarak inşa edilmiş, ölçeklenebilir ve güvenli bir görev yönetim platformudur. Proje, kullanıcı deneyimini ön planda tutan bir arayüz ile güçlü bir bulut altyapısını birleştirmektedir.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/37583481-8f3a-4cb9-b837-5760de1796af" width="180" alt="Empty State" />
+  <img src="https://github.com/user-attachments/assets/af792207-debe-494c-85ef-ef1b66098a77" width="180" alt="Adding Expense" />
+  <img src="https://github.com/user-attachments/assets/6d524d83-0b9c-42ef-a47b-9dcd157a66ca" width="180" alt="Category Selection" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/95de3c64-52d6-4934-96d0-d738d4b75736" width="180" alt="Expense List" />
+  <img src="https://github.com/user-attachments/assets/f2318668-db8e-4373-9391-fb0db42c25ec" width="180" alt="Salary Update" />
+  <img src="https://github.com/user-attachments/assets/3761c538-97af-4160-9db9-7ad02f05ed7f" width="180" alt="Dark Mode View" />
+</p>
 Teknik Mimari ve Özellikler
 Kimlik Doğrulama ve Güvenlik Yönetimi
 
