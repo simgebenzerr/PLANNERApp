@@ -11,7 +11,7 @@ PLANNERApp, modern mobil uygulama geliştirme standartları kullanılarak inşa 
   <img src="https://github.com/user-attachments/assets/f2318668-db8e-4373-9391-fb0db42c25ec" width="180" alt="Salary Update" />
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3761c538-97af-4160-9db9-7ad02f05ed7f" width="180" alt="Dark Mode View" />
+
 </p>
 Teknik Mimari ve Özellikler
 Kimlik Doğrulama ve Güvenlik Yönetimi
