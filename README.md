@@ -8,7 +8,6 @@ PLANNERApp, modern mobil uygulama geliştirme standartları kullanılarak inşa 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6d524d83-0b9c-42ef-a47b-9dcd157a66ca" width="180" alt="Category Selection" />
   <img src="https://github.com/user-attachments/assets/95de3c64-52d6-4934-96d0-d738d4b75736" width="180" alt="Expense List" />
-  <img src="https://github.com/user-attachments/assets/f2318668-db8e-4373-9391-fb0db42c25ec" width="180" alt="Salary Update" />
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3761c538-97af-4160-9db9-7ad02f05ed7f" width="180" alt="Dark Mode View" />
